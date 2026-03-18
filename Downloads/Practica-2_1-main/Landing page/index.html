@@ -1,0 +1,128 @@
+index.html:<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERJALISCO</title>
+
+    <style>
+        /* Estilos directos para asegurar que se vea físicamente bien */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0c04f8;
+            padding: 15px 40px;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            height: 80vh;
+            background-image: url("assets/img/pexels-shvets-2570062.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: #444;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 25px;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        #btn-masthead {
+            padding: 15px 30px;
+            background: #00bfff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+
+        footer {
+            background: #0c04f8;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <h2>UNIVERJALISCO</h2>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Oferta Académica</a></li>
+            <li><a href="#">Admisiones</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>BIENVENIDO A UNIVERJALISCO</h1>
+        <p>Forjando el futuro de los profesionales en Jalisco</p>
+        <button id="btn-masthead">Ver oferta educativa</button>
+    </header>
+
+    <section>
+        <h2>Solicitar informes</h2>
+        <input 
+            type="text" 
+            id="inputEdad" 
+            placeholder="¿Desea recibir informes? (Si / No)"
+        >
+        <button id="muestraEdad">Confirmar</button>
+    </section>
+
+    <footer>
+        <p>UNIVERJALISCO 2026</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

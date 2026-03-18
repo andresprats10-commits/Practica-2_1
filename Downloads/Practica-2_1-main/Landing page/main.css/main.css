@@ -1,0 +1,91 @@
+body{  /* define el inicio del estilo general del cuerpo de la página */
+    font-family: Arial, Helvetica, sans-serif;  /* establece la fuente principal del sitio */
+    margin: 0; /* elimina espacios en blanco en los bordes */
+}  /* fin de las reglas del body */
+
+/* NAVBAR /  / comentario que indica que comienza la sección de la barra de navegación */
+
+nav{  /* selector que aplica estilos a la barra de navegación */
+    display:flex;  /* utiliza flexbox para organizar los elementos horizontalmente */
+    justify-content:space-between;  /* separa los elementos del menú hacia los extremos */
+    align-items:center;  /* centra verticalmente los elementos dentro de la barra */
+    background:#04a7f8;  /* establece el color de fondo de la barra de navegación */
+    padding:15px 40px;  /* agrega espacio interno arriba/abajo y a los lados */
+}  /* fin del bloque de estilos del nav */
+
+nav h2{  /* selecciona el título dentro de la barra de navegación */
+    color:white;  /* define el color del texto del título de la universidad */
+    margin: 0; /* quita el margen por defecto */
+}  /* fin del estilo del título del nav */
+
+nav ul{  /* selecciona la lista que contiene las opciones del menú */
+    list-style:none;  /* elimina los puntos o viñetas de la lista */
+    display:flex;  /* coloca los elementos de la lista en forma horizontal */
+    margin: 0; /* quita el margen por defecto */
+}  /* fin del bloque de estilos de la lista */
+
+nav ul li{  /* selecciona cada elemento de la lista del menú */
+    margin-left:20px;  /* agrega espacio entre cada opción del menú */
+}  /* fin del estilo de cada elemento de la lista */
+
+nav ul li a{  /* selecciona los enlaces dentro del menú */
+    text-decoration:none;  /* elimina el subrayado predeterminado de los enlaces */
+    color:white;  /* define el color del texto de los enlaces */
+    font-weight:bold;  /* hace que el texto del menú aparezca en negrita */
+}  /* fin del estilo de los enlaces del menú */
+
+
+/* HERO /  / comentario que indica el inicio de la sección hero principal */
+
+.hero{  /* selecciona la sección principal de presentación de la página */
+    height:80vh;  /* define la altura de la sección como el 80% de la pantalla */
+    background-image:url("../assets/img/pexels-shvets-2570062.jpg");  /* establece la imagen de fondo con el nombre de pexels */
+    background-size:cover;  /* hace que la imagen cubra completamente la sección */
+    background-position:center;  /* centra la imagen de fondo */
+    display:flex;  /* activa flexbox para organizar el contenido */
+    flex-direction:column;  /* coloca los elementos uno debajo del otro */
+    justify-content:center;  /* centra verticalmente el contenido */
+    align-items:center;  /* centra horizontalmente los elementos */
+    color:white;  /* cambié a blanco para que se lea mejor sobre la imagen */
+    text-align:center;  /* centra el texto de los elementos */
+}  /* fin del bloque hero */
+
+.hero h1{  /* selecciona el título principal dentro del hero */
+    font-size:70px;  /* define el tamaño grande del título principal */
+    margin: 0; /* quita el margen por defecto */
+}  /* fin del estilo del título principal */
+
+.hero p{  /* selecciona el párrafo del hero */
+    font-size:30px;  /* ajusté un poco el tamaño para que no sea gigante */
+    margin:20px;  /* agrega espacio alrededor del texto */
+    color: white;  /* establece el color del subtítulo */
+    font-weight:bold;  /* hace que el subtítulo sea más grueso o en negrita */
+}  /* fin del estilo del párrafo */
+
+.hero button{  /* selecciona el botón dentro de la sección hero */
+    padding:15px 30px;  /* agrega espacio interno dentro del botón */
+    background:#f2ff00;  /* establece el color de fondo del botón */
+    border:none;  /* elimina el borde del botón */
+    color:black;  /* define el color del texto del botón */
+    border-radius:10px;  /* redondea las esquinas del botón */
+    font-weight: bold; /* hace el texto del botón negrita */
+    cursor:pointer;  /* cambia el cursor a una mano al pasar sobre el botón */
+}  /* fin del estilo del botón */
+
+
+/* SECCIONES /  / comentario que indica los estilos generales para las secciones */
+
+section{  /* aplica estilos a la sección de entrada del body */
+    padding:80px 20px;  /* agrega espacio interno dentro de las secciones */
+    text-align:center;  /* centra el contenido dentro de las secciones */
+}  /* fin del bloque de estilos de las secciones */
+
+
+/* FOOTER /  / comentario que indica el inicio del pie de página */
+
+footer{  /* selecciona el pie de página del sitio */
+    background:#14ecda;  /* define el color de fondo del footer */
+    color:black;  /* define el color del texto del footer */
+    text-align:center;  /* centra el texto del footer */
+    padding:30px;  /* agrega espacio interno dentro del footer */
+}  /* fin del bloque de estilos del footer */
